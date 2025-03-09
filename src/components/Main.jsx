@@ -4,14 +4,18 @@ const Main = () => {
   return (
     <div>
         <div className=' bg-black'>
-            <div className=' lg:flex justify-center lgbg'>
-                <h1 className=' lg:text-8xl lg:text-center text-white'>
+            <div className=' h-[85vh] lgbg'>
+                <div className=' lg:pt-44 '>
+                <h1 className=' lg:w-4/6 font-bold text-center md:text-5xl lg:text-7xl xl:text-8xl clash text-4xl  text-white'>
                     Corper's Tech Conference 
                     <sup className='text-orange-600 font-normal text-2xl lg:text-4xl'>2024</sup>
                 </h1>
-                {/* <img className=' lg:w-7/12  ml-auto' src="https://res.cloudinary.com/doawzlqxi/image/upload/v1741291692/Rectangle_13_s2trfp.png" alt="" /> */}
+                <p className='text-white lg:w-6/12 lg:pl-48 lg:text-2xl  '>Empowering Nigeria's Future Leaders Through Technology 
+                An initiative of O3 Finance School</p>
+                </div>
             </div>
         </div>
+        <div className=' lg:bg-orange-600 lg:h-4 '></div>
 
     </div>
   )
