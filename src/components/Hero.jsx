@@ -1,8 +1,9 @@
 import React from 'react'
 
-const Main = () => {
+const Hero = () => {
   return (
     <div>
+      <div>
         <div className=' bg-black'>
             <div className=' h-[85vh] lgbg'>
                 <div className=' lg:pt-44 '>
@@ -15,10 +16,10 @@ const Main = () => {
                 </div>
             </div>
         </div>
-        <div className=' lg:bg-orange-600 lg:h-4 '></div>
-
+        <div className=' lg:bg-orange-600 lg:h-4'></div>
+    </div>
     </div>
   )
 }
 
-export default Main
+export default Hero

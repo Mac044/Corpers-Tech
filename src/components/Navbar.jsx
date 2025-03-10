@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div>
-        <nav className=' flex bg-black justify-between px-44 lg:py-5'>
+        <nav className=' flex bg-black justify-between lg:px-44 lg:py-5'>
         <img src="https://res.cloudinary.com/doawzlqxi/image/upload/v1741281963/Vector_f0y9op.svg" alt="Logo" />
         <ul className=' text-white lg:flex lg:justify-center lg:gap-8 
         lg:text-white-800 '>

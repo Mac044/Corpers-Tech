@@ -1,5 +1,6 @@
 import "./App.css";
-import Main from "./components/Main";
+import About from "./components/About";
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
 
@@ -7,7 +8,8 @@ const App = () => {
   return (
     <div>
       <Navbar/>
-      <Main/>
+      <Hero/>
+      <About/>
     </div>
   )
 }
