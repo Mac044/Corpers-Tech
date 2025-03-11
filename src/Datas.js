@@ -60,3 +60,5 @@ const People = [
         work: "Quantum Cryptography Researcher",
     },
 ]
+
+export default People

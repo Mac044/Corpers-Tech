@@ -60,3 +60,5 @@ const information = [
         info: "Participate in hands-on sessions covering a range of tech skills, including coding, cybersecurity, digital marketing, and blockchain technology",
     },
 ]
+
+export default information
