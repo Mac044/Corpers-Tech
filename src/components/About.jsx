@@ -3,7 +3,7 @@ import Headers from './Headers'
 
 const About = () => {
   return (
-    <div className=' lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:gap-4'>
+    <div className=' container mx-auto px-4  lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:gap-4'>
         <div>
             <Headers text='About' title='Learn about the confrence'/>
             <p>
