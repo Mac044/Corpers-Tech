@@ -3,7 +3,8 @@ import Headers from './Headers'
 
 const Blog = () => {
   return (
-    <section className='container mx-auto px-4'>
+    <section>
+        <div className='container mx-auto px-4'>
         <Headers text='About' title='Blog & Articles'/>
         <div className=' lg:flex'>
             <div className=''>
@@ -17,6 +18,7 @@ const Blog = () => {
                 <p>We had a vision to reach as many Corps member as possible to enlighten them about tech and its emergence in the “work industry”. Our drive is to see that millions of youth...</p>
             </div>
         </div>
+      </div>
     </section>
   )
 }

@@ -1,6 +1,7 @@
 import "./App.css";
 import About from "./components/About";
 import Blog from "./components/Blog";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Highlights from "./components/Highlights";
 import Navbar from "./components/Navbar";
@@ -16,8 +17,11 @@ const App = () => {
       <About/>
       <Highlights/>
       <Speakers/>
+      <div className="bg-gray-300'">
       <Scholarship/>
       <Blog/>
+      </div>
+      <Footer/>
     </div>
   )
 }

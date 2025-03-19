@@ -3,7 +3,8 @@ import Headers from './Headers'
 
 const Scholarship = () => {
   return (
-    <section className='container mx-auto px-4 lg:flex'>
+    <section>
+           <div className='container mx-auto px-4 lg:flex'>
         <div>
             <Headers text='Education' title='Scholarship'/>
             <p>
@@ -24,6 +25,7 @@ const Scholarship = () => {
         </div>
         <img src="https://res.cloudinary.com/doawzlqxi/image/upload/v1742209068/Rectangle_11_rrcifo.png" alt="" />
 
+    </div>
     </section>
   )
 }
