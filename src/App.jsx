@@ -17,7 +17,7 @@ const App = () => {
       <About/>
       <Highlights/>
       <Speakers/>
-      <div className="bg-gray-300'">
+      <div className="bg-gray-200">
       <Scholarship/>
       <Blog/>
       </div>

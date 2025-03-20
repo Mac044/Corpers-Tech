@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button'
 
 const Hero = () => {
   return (
@@ -13,6 +14,7 @@ const Hero = () => {
                 </h1>
                 <p className='text-white lg:w-6/12 lg:text-2xl '>Empowering Nigeria's Future Leaders Through Technology 
                 An initiative of O3 Finance School</p>
+               
                 </div>
             </div>
         </div>
