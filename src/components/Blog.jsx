@@ -11,13 +11,13 @@ const Blog = () => {
                 <img src="https://res.cloudinary.com/doawzlqxi/image/upload/v1742209065/Frame_127_vmuhxl.png" alt="" />
                 <h3 className=' mb-5 mt-5 font-semibold'>What Inspired this vision</h3>
                 <p>We had a vision to reach as many Corps member as possible to enlighten them about tech and its emergence in the “work industry”. Our drive is to see that millions of youth....</p>
-                <button className=' border py-2 px-4 border-orange-600 border-solid lg:mt-10'>Read blog</button>
+                <button className=' border py-2 px-4 border-orange-600 border-solid lg:mt-10 mt-4 lg:mb-0 mb-4'>Read blog</button>
             </div>
             <div>
                 <img src="https://res.cloudinary.com/doawzlqxi/image/upload/v1742209065/Frame_127_vmuhxl.png" alt="" />
                 <h3 className=' mt-5 mb-5 font-semibold'>What Inspired this vision</h3>
                 <p>We had a vision to reach as many Corps member as possible to enlighten them about tech and its emergence in the “work industry”. Our drive is to see that millions of youth...</p>
-                <button className=' border py-2 px-4 border-orange-600 border-solid lg:mt-10 lg:mb-10'>Read blog</button>
+                <button className=' border py-2 px-4 border-orange-600 border-solid lg:mt-10 mt-4 lg:mb-10 mb-4'>Read blog</button>
             </div>
         </div>
       </div>

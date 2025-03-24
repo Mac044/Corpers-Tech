@@ -23,7 +23,7 @@ const Scholarship = () => {
             <h4>How To Apply</h4>
             <p>Details on the application process will be available soon. Stay tuned!</p>
         </div>
-        <img src="https://res.cloudinary.com/doawzlqxi/image/upload/v1742209068/Rectangle_11_rrcifo.png" alt="" />
+        <img className=' lg:mt-0 mt-4' src="https://res.cloudinary.com/doawzlqxi/image/upload/v1742209068/Rectangle_11_rrcifo.png" alt="" />
 
     </div>
     </section>

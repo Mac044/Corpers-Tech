@@ -33,7 +33,8 @@ body {
 }
 
 .lgbg {
-  background-image: url('https://res.cloudinary.com/doawzlqxi/image/upload/v1741291692/Rectangle_13_s2trfp.png');
+  @apply lg:bg-[url('https://res.cloudinary.com/doawzlqxi/image/upload/v1741291692/Rectangle_13_s2trfp.png')] bg-[url('https://res.cloudinary.com/doawzlqxi/image/upload/v1742806888/Rectangle_13_oyzaea.png')];
+  /* background-image: url('https://res.cloudinary.com/doawzlqxi/image/upload/v1741291692/Rectangle_13_s2trfp.png'); */
   background-position: center right;
   background-repeat: no-repeat;
 }
@@ -139,4 +140,20 @@ button:focus-visible {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.loader span{
+  @apply rounded-full block;
+  /* animation: loading 1s ease-in-out infinite alternate; */
+}
+.loader span:nth-child(1){
+  @apply size-2 bg-[#FFFFFFCC];
+}
+.loader span:nth-child(2){
+  @apply size-3.5 bg-[#FFFFFF99];
+  animation-delay: .3s;
+}
+.loader span:nth-child(3){
+  @apply size-[18px] bg-[#FFFFFF66];
+  animation-delay:.6s;
 }
