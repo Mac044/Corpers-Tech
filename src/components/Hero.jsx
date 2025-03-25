@@ -7,7 +7,7 @@ const Hero = () => {
       <div>
         <div className=' bg-black'>
             <div className=' lg:h-[85vh] h-[50vh] lg:min-h-[60svh] lgbg'>
-                <div className=' container mx-auto px-4 lg:pt-44 pt-24 '>
+                <div className=' container mx-auto px-4 lg:pt-32 pt-24 '>
 
                   <section className=' loader mb-8 w-[48px] h-[18px] flex justify-between items-center '>
                     <span></span>
@@ -20,6 +20,7 @@ const Hero = () => {
                     <sup className='text-orange-600 font-normal text-2xl lg:text-4xl'>2024</sup>
                 </h1>
                 <p className='text-white lg:w-6/12 lg:text-2xl '>Empowering Nigeria's Future Leaders Through Technology An initiative of O3 Finance School</p>
+                <button className=' border py-2 px-4 border-orange-600 bg-orange-600 rounded-lg border-solid lg:mt-10 mt-4 text-white'>Register</button>
 
                 <div className='flex justify-end'>
                   <section className='loader my-8 w-[48px] h-[18px] flex justify-between items-center'>
